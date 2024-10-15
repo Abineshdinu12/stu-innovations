@@ -6,6 +6,8 @@ import Hero from '../components/Hero';
 import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
+import MediaPlayer from '../components/MediaPlayer';
+import Maps from '../components/Maps';
 
 
 const Home = () => {
@@ -14,9 +16,12 @@ const Home = () => {
             <Hero />
             <Intro />
             <Services />
-            <Portfolio />
-            <Clients />
-            <Cta/>
+            {/* <Portfolio /> */}
+            {/* <Clients /> */}
+            
+            <MediaPlayer />
+            <Maps/>
+            
             <Footer />
         </>
 
